@@ -1,0 +1,19 @@
+.footer {
+  padding: 0.5rem 0;
+
+  &__icons {
+    margin-bottom: 1rem;
+
+    a {
+      color: $clr-primary;
+    }
+
+    a:not(:last-child) {
+      margin-right: 0.9rem;
+    }
+  }
+  &__name {
+    font-size: 1.4rem;
+    color: $clr-primary;
+  }
+}

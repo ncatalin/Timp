@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/7f42215279.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <title>Timpul</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="nav__menu d--flex justify--spacebet">
+          <div class="nav__logo-mobile">
+            <img src="./img/logo.jpg" alt="Copany Logo" />
+          </div>
+          <div
+            id="hamburgerBtn"
+            class="nav__toggle d--flex flex--column align--end"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <ul class="nav__list has-fade d--flex justify--spacebet">
+          <div class="nav__logo-desktop">
+            <img src="./img/logo.jpg" alt="Copany Logo" />
+          </div>
+          <div class="container d--flex align--center flex--column">
+            <li class="nav__link"><a href="#home">Acasa</a></li>
+            <li class="nav__link"><a href="#services">Servicii</a></li>
+            <li class="nav__link"><a href="#contact">Contact</a></li>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <section id="home" class="hero section--pt section--pb">
+      <div class="container">
+        <div class="hero__left">
+          <h1>Totul pentru Timpul Tau</h1>
+        </div>
+        <div class="hero__right">
+          <video src="./video/intro.mp4" controls></video>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services bg--light">
+      <div class="container">
+        <h1 class="services__header">Servicii</h1>
+        <!-- ITP -->
+        <div class="card">
+          <div class="card__header"><h1>ITP</h1></div>
+          <div class="card__content">
+            Efectuam programari de ITP cu service partener, preluam masina din
+            locatia aleasa de tine si efectuam ITP.
+          </div>
+          <div class="card__footer">
+            <video src="./video/itp.mp4" controls></video>
+          </div>
+        </div>
+        <!-- END ITP -->
+        <!-- Parbriz -->
+        <div class="card">
+          <div class="card__header"><h1>Inlocuire Parbriz</h1></div>
+          <div class="card__content">
+            Efectuam programari pentru inlocuirea sau reparatie parbrizului cu
+            service partener, preluam masina din locatia aleasa de tine.
+          </div>
+          <div class="card__footer">
+            <video src="./video/parbriz.mp4" controls></video>
+          </div>
+        </div>
+        <!-- END Parbriz -->
+        <!-- Anvelope -->
+        <div class="card">
+          <div class="card__header"><h1>Servicii Anvelope</h1></div>
+          <div class="card__content">
+            Efectuam programari pentru schimbarea anvelopelor cu service
+            partener, preluam masina din locatia aleasa de tine.
+          </div>
+          <div class="card__footer">
+            <video src="./video/anvelope.mp4" controls></video>
+          </div>
+        </div>
+        <!-- END Anvelope -->
+        <!-- Asigurari -->
+        <div class="card">
+          <div class="card__header"><h1>Asigurare RCA</h1></div>
+          <div class="card__content">
+            Daca ti-a expirat s-au urmeaza sa iti expire asigurarea obligatorie
+            RCA contacteazane si te vom ajuta in cel mai scurt timp posibil.
+          </div>
+          <div class="card__footer">
+            <video src="./video/asigurari.mp4" controls></video>
+          </div>
+        </div>
+        <!-- END Asigurari -->
+        <!-- Spalatorie -->
+        <div class="card">
+          <div class="card__header"><h1>Spalatorie Auto</h1></div>
+          <div class="card__content">Oferim servicii de spalatorie auto.</div>
+          <div class="card__footer">
+            <video src="./video/spalatorie.mp4" controls></video>
+          </div>
+        </div>
+        <!-- END Spalatorie -->
+      </div>
+    </section>
+    <section id="contact" class="contact container section--pb">
+      <h1>Contact</h1>
+
+      <div class="contact__content">
+        <div class="contact__header">
+          Ne poti contacta prin telefon sau email :
+        </div>
+        <div class="contact__links d--flex flex--column">
+          <a href="tel:+40736326111">+40 736 326 111</a>
+          <a href="tel:+40734399561">+40 734 399 561</a>
+          <a href="mailto:#">mail@mail.com</a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer bg--secondary">
+      <div class="container">
+        <div class="footer__icons">
+          <!-- Facebook -->
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-facebook fa-3x"></i>
+          </a>
+          <!-- Youtube -->
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-youtube fa-3x"></i>
+          </a>
+          <!-- Instagram -->
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-instagram fa-3x"></i
+          ></a>
+          <!-- Tiktok -->
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-tiktok fa-3x"></i
+          ></a>
+        </div>
+        <div class="footer__name">
+          Timpu &copy;<span id="currentYear"></span>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
