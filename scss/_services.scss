@@ -1,5 +1,21 @@
 .services {
   padding-bottom: 0.7rem;
+  &__wrapper {
+    @include breakpoint-up(md) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 1rem;
+
+      .card {
+        display: grid;
+        grid-template-rows: auto 150px 1fr auto;
+
+        &__header {
+          align-self: center;
+        }
+      }
+    }
+  }
   &__header {
     font-size: 2rem;
     padding: 2.5rem 0;

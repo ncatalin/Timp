@@ -1,9 +1,22 @@
 .hero {
+  &__wrapper {
+    @include breakpoint-up(md) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
   &__left {
     margin-bottom: 4rem;
+
+    @include breakpoint-up(md) {
+      width: 45%;
+    }
   }
 
-  // &__right {
-
-  // }
+  &__right {
+    @include breakpoint-up(md) {
+      width: 50%;
+    }
+  }
 }

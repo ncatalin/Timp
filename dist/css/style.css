@@ -320,12 +320,43 @@ body {
   }
 }
 
+@media (min-width: 1024px) {
+  .hero__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
 .hero__left {
   margin-bottom: 4rem;
+}
+@media (min-width: 1024px) {
+  .hero__left {
+    width: 45%;
+  }
+}
+@media (min-width: 1024px) {
+  .hero__right {
+    width: 50%;
+  }
 }
 
 .services {
   padding-bottom: 0.7rem;
+}
+@media (min-width: 1024px) {
+  .services__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+  }
+  .services__wrapper .card {
+    display: grid;
+    grid-template-rows: auto 150px 1fr auto;
+  }
+  .services__wrapper .card__header {
+    align-self: center;
+  }
 }
 .services__header {
   font-size: 2rem;
