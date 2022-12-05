@@ -7,6 +7,10 @@
     }
   }
   &__left {
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 3rem;
+    }
     margin-bottom: 4rem;
 
     @include breakpoint-up(md) {

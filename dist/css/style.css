@@ -291,7 +291,7 @@ body {
 }
 @media (min-width: 1024px) {
   .nav__list img {
-    width: 80px;
+    width: 115px;
     padding: 5px;
   }
   .nav__list .container {
@@ -303,7 +303,6 @@ body {
 .nav__list a {
   color: #fff;
   font-size: 1.5rem;
-  text-transform: uppercase;
   opacity: 0.9;
 }
 .nav__list a:hover {
@@ -329,6 +328,10 @@ body {
 }
 .hero__left {
   margin-bottom: 4rem;
+}
+.hero__left h1 {
+  font-size: 4rem;
+  margin-bottom: 3rem;
 }
 @media (min-width: 1024px) {
   .hero__left {
