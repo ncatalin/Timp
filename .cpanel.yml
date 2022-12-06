@@ -3,3 +3,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/fryywcfg/public_html/
     - /bin/cp dist/index.html $DEPLOYPATH
+    - /bin/cp -R dist/css $DEPLOYPATH
+    - /bin/cp -R dist/img $DEPLOYPATH
+    - /bin/cp -R dist/js $DEPLOYPATH
+    - /bin/cp -R dist/video $DEPLOYPATH
