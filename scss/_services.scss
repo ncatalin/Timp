@@ -1,5 +1,27 @@
 .services {
   padding-bottom: 0.7rem;
+  background-color: #e3e1e5;
+  &__info {
+    margin-bottom: 4rem;
+    @include breakpoint-up(md) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  &__info__left {
+    @include breakpoint-up(md) {
+      width: 50%;
+    }
+    h1 {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__info__right {
+    h1 {
+      margin-bottom: 2rem;
+    }
+  }
   &__wrapper {
     @include breakpoint-up(md) {
       display: grid;

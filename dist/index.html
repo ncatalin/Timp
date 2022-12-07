@@ -41,12 +41,19 @@
     </header>
     <section id="home" class="hero section--pt section--pb">
       <div class="container hero__wrapper">
-        <div class="hero__left">
+        <div class="hero__left d--flex align--center flex--column">
           <h1>Servicii auto door-to-door</h1>
           <h2>
             Preluare autovehicul de la locatia aleasa de tine pentru a fi dus la
             service sau la spalatorie
           </h2>
+          <a
+            href="tel:+40736326111"
+            class="btn btn--secondary d--flex align--center justify--center"
+          >
+            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+            <p>+40 767 481 088</p>
+          </a>
         </div>
         <div class="hero__right">
           <video src="./video/intro.mp4" controls></video>
@@ -54,16 +61,70 @@
       </div>
     </section>
 
-    <section id="services" class="services bg--light">
+    <section id="services" class="services">
       <div class="container">
         <h1 class="services__header">Servicii</h1>
+        <div class="services__info">
+          <div class="services__info__left">
+            <h1>Servicii Door-to-Door</h1>
+            <h3>Cum Functioneaza Procesul :</h3>
+            <p>
+              Proprietarul masinii are la dispozitie mai multe mijloace de
+              contact unde sa ne ofere detalii despre autovehicul, adresa de
+              preluare, destinatia, motivul, adresa de returnare. Comanda se va
+              face pana la ora 16:00, pentru preluare in ziua urmatoare. Atat la
+              preluare cat si la predare, reprezentantul
+              <span class="services__bold">TIMPU.RO</span> va efectua fotografii
+              din care sa se vada aspectul exterior, interior, portbagaj,
+              indicatoare de bord cu vizibilitate clara a odometrului.
+              Neconformitatile vor fi mentionate într-un proces verbal.
+            </p>
+            <h3>Din autovehicul nu trebuie sa lipseasca:</h3>
+            <p>Talonul (ITP valabil, daca auto este preluat pe roti)</p>
+            <p>Dovada RCA valabil.</p>
+          </div>
+          <div class="services__info__right">
+            <h1>Servicii Administrare Flote</h1>
+
+            <h3>Servicii pentru administrarea parcului auto. Ce oferim :</h3>
+            <p>
+              Deplasarea autovehiculelor, pe roti sau pe platforma, la service
+              pentru reparatii sau mentenanta.
+            </p>
+            <p>
+              Deplasarea autoturismelor pe roți sau cu platforma, în orice alt
+              scop solicitat.
+            </p>
+            <p>Schimbul sezonier de anvelope.</p>
+            <p>Efectuarea inspectiei tehnice periodice (I.T.P).</p>
+            <p>
+              Consultanta cu privire la planul de mentenanta si/sau reparatii.
+            </p>
+            <p>
+              Evidenta a reparatiilor (inregistrari facturi reparatie, costuri
+              pentru fiecare autovehicul).
+            </p>
+            <p>
+              Asiguram evidenta termenelor de valabilitate documentelor (RCA,
+              Casco, ITP, Rovinieta) si reinoirea acestora.
+            </p>
+            <p>
+              Consultanta achizitie anvelope si evidenta schimbului sezonier +
+              servicii hotel.
+            </p>
+            <p>
+              Consultanță in caz de accident, cat si la deschiderea dosarului de
+              dauna.
+            </p>
+          </div>
+        </div>
         <div class="services__wrapper">
           <!-- ITP -->
           <div class="card">
-            <div class="card__header"><h1>ITP</h1></div>
+            <div class="card__header"><h1>ITP Door-to-Door</h1></div>
             <div class="card__content">
               Efectuam programari de ITP cu service partener, preluam masina din
-              locatia aleasa de tine si efectuam ITP.
+              locatia aleasa de tine.
             </div>
             <div class="card__footer">
               <video src="./video/itp.mp4" controls></video>
@@ -74,7 +135,7 @@
           <div class="card">
             <div class="card__header"><h1>Inlocuire Parbriz</h1></div>
             <div class="card__content">
-              Efectuam programari pentru inlocuirea sau reparatie parbrizului cu
+              Efectuam programari pentru inlocuirea sau reparatia parbrizului cu
               service partener, preluam masina din locatia aleasa de tine.
             </div>
             <div class="card__footer">
@@ -110,26 +171,41 @@
           <!-- Spalatorie -->
           <div class="card">
             <div class="card__header"><h1>Spalatorie Auto</h1></div>
-            <div class="card__content">Oferim servicii de spalatorie auto.</div>
+            <div class="card__content">
+              Oferim servicii de spalatorie auto, preluam masina din locatia
+              aleasa de tine
+            </div>
             <div class="card__footer">
               <video src="./video/spalatorie.mp4" controls></video>
             </div>
           </div>
           <!-- END Spalatorie -->
         </div>
+        <!-- end services wrapper -->
       </div>
     </section>
     <section id="contact" class="contact container section--pb">
       <h1>Contact</h1>
+      <div class="contact__wrapper">
+        <div class="contact__left">
+          <div class="contact__header">PENTRUTIMPUTAU S.R.L.</div>
 
-      <div class="contact__content">
-        <div class="contact__header">
-          Ne poti contacta prin telefon sau email :
+          <p>
+            B-DUL ARMATEI NR. 16A, CAMERA 1, ET. 2, AP. 8, SAT GIROC, COM.
+            GIROC, JUD. TIMIS
+          </p>
+          <p>CIF: 47237160</p>
+          <p>J35/5456/2022</p>
         </div>
-        <div class="contact__links d--flex flex--column">
-          <a href="tel:+40736326111">+40 736 326 111</a>
-          <a href="tel:+40734399561">+40 767 481 088</a>
-          <a href="mailto:office@timpu.ro">office@timpu.ro</a>
+        <div class="contact__right">
+          <div class="contact__header">
+            Ne poti contacta prin telefon sau email :
+          </div>
+          <div class="contact__links d--flex flex--column">
+            <a href="tel:+40736326111">+40 736 326 111</a>
+            <a href="tel:+40734399561">+40 767 481 088</a>
+            <a href="mailto:office@timpu.ro">office@timpu.ro</a>
+          </div>
         </div>
       </div>
     </section>
